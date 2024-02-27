@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>UNIT 3</title>
+<style>
+        /* Apply a border to a div with the class "bordered" */
+        .bordered {
+            
+			border: 2px solid #000; /* 2px width, solid style, black color */
+            padding: 10px; /* Optional: Add padding for better appearance */
+        }
+		<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    margin: 0%;
+padding: 0%;
+background-color:aliceblue;
+}
+header{
+    background-color:cadetblue;
+color: black;
+}
+h1{
+    margin: 0%;
+}
+</style>
+</head>
+<body><header><u><center><h1>UNIT 3</h1></u></header></center>
+<h2>1.WHAT IS CSS?</h2>
+<p>CSS stands for Cascading Style Sheets. It's a computer language used to lay out and structure web pages. CSS is a style sheet language that describes the look and formatting of documents written in markup languages.<br> 
+CSS's primary function is to define the styling and layout of web pages, making them more visually appealing, user-friendly, and accessible. It provides a way to define and apply styles consistently across all pages of a website.<br></p>
+<h2>2.HISTORY OF CSS</h2>
+<p>Håkon Wium Lie and Bert Bos first proposed CSS in 1994 while working at CERN with Tim Berners-Lee. The first version of CSS was released in 1996, and CSS 2 was released in 1998 and work on CSS 3 began. CSS 3 was very different from the other versions, fot instead of being a single monolithic specification, it was published as a set of separate documents known as modules. <br>
+It was created as a solution to the growing complexity of web design in the early 1990s. CSS is designed to separate content and presentation, including layout, colors, and fonts. It has a wider array of attributes than HTML, and can store web applications locally with the help of an offline cache. <br>
+<br><b><i>Some advantages of CSS include:</i></b><br>
+a.)Separation of content and style<br>
+b.)Consistency<br>
+c.)Faster loading times<br>
+d.)Responsive design<br>
+e.)Ease of maintenance<br>
+f.)Accessibility<br>
+g.)Print-friendly pages<br>
+h.)Global styling <br></p>
+<h2>3.VERSIONS OF CSS</h2>
+<p>The three main versions of CSS are CSS1, CSS2, and CSS3. CSS1 was the first version, released in 1996, and was republished in 1999 with corrections. CSS2 was released in 1998 and builds on CSS1. CSS3 is the latest version and is currently in development.<br>
+<b><i>Here are some differences between CSS versions:</i></b><br>
+<ul><li>CSS1: The oldest version of CSS.</li><br>
+<li>CSS2: Adds support for different output media.</li><br>
+<li>CSS3: Published as a set of modules, rather than a single monolithic specification. CSS3 introduces new features and enhancements, such as improved selectors, advanced layout options, and new visual effects. </li></ul></p>
+<h2>4.BROWSER SUPPORT</h2>
+<p>it is necessary to know the CSS supported browsers. As per the information from Caniuse.com, browsers that support CSS are – Chrome (above 106), Edge (107, 108), Safari (above 15.6), Firefox (above 106) and Opera (92).</p>
+<h2>5.WHAT'S NEW IN CSS3</h2>
+<p><b>CSS3 has many new features, including:</b><br>
+<br><b>a.)Advanced selectors</b><br>
+CSS3 adds many advanced selectors, including attribute selectors. Attribute selectors allow developers to select HTML elements by attributes instead of using IDs or classes for styling.<br>
+<br><b>b.)Container queries</b><br>
+This feature allows developers to change an element's appearance and behavior based on its container, instead of the viewport size.<br>
+<br><b>c.)Subgrids</b><br>
+Subgrids are a new member of the CSS family, and are easy to code. Subgrids can be used on either axis, or both axes simultaneously.<br>
+<br><b>d.)Cascade layers</b><br>
+This feature allows developers to control the source order and specificity across multiple CSS files. This helps developers avoid unexpected style changes and minimize CSS collisions.<br>
+<br><b>e.)Content-visibility</b><br>
+This new CSS property enables the browser to skip rendering work for an element if it is not yet visible. This property can improve page-loading performance.<br>
+<br><b>f.)Box-sizing</b><br>
+This new property allows developers to change how the width of an element is measured.<br>
+<br><b>g.)Gradients</b><br>
+Modern gradients can be designed purely in CSS3, making it easier to build them into buttons, backgrounds, and typography. <br>
+<br><i><b>Other new features of CSS3 include:</i></b><br>
+<ul><li>Rounded corners</li><br>
+<li>Box shadows</li><br>
+<li>RGBA, HSL, and HSLA colors</li><br>
+<li>Opacity</li><br>
+<li>Transitions</li><br>
+<li>Transformations</li><br>
+<li>Animations</li><br>
+<li>Multi-column layout</li><br>
+<li>Flex box</li><br>
+<li>CSS grids</li><br>
+<li>Embedded fonts</li><br>
+<li>Responsive web design</li></ul> </p>
+<h2>6.CSS vs CSS3</h2>
+<p><b>CSS:</b> CSS stands for Cascading Style Sheet. Its main objective is to provide styling and fashion to the web page. CSS provides color, layout, background, font, and border properties. CSS features allow better content accessibility, enhanced flexibility, and control, as well as the specification of the characteristics of presentation.<br>
+
+<b>CSS3:</b> CSS3 stands for Cascading Style Sheet level 3, which is the advanced version of CSS. It is used for structuring, styling, and formatting web pages. Several new features have been added to CSS3 and it is supported by all modern web browsers. The most important feature of CSS3 is the splitting of CSS standards into separate modules that are simpler to learn and use.<br>
+<br><b>Difference between CSS and CSS3:</b><br>
+<table border="3">
+<tr><th>S.No.</th>
+<th>CSS</th>
+<th>	CSS3</th></tr>
+<tr><td>1</td>
+<td>	CSS is capable of positioning texts and objects.</td>
+<td> 	On the other hand, CSS3 is capable of making the web page more attractive and takes less time to create. CSS3 is backward compatible with CSS.</td></tr>
+<tr><td>2	</td>
+<td>Responsive designing is not supported in CSS.</td>
+<td>	CSS3 is the latest version, hence it supports responsive design.</td></tr>
+<tr><td>3</td>	<td>CSS cannot be split into modules.</td>	<td>Whereas CSS3 can be breakdown into modules.</td></tr>
+<tr><td>4	</td><td>Using CSS, we cannot build 3D animation and transformation.</td><td>	But in CSS3 we can perform all kinds of animation and transformations as it supports animation and 3D transformations.</td></tr>
+<tr><td>5</td>	<td>CSS is very slow as compared to CSS3</td><td>	Whereas CSS3 is faster than CSS.</td></tr>
+<tr><td>6</td><td>	In CSS we have set of standard colors and it uses basic color schemes only.</td><td>	Whereas CSS3 has a good collection of HSL RGBA, HSLA, and gradient colors.</td></tr>
+<tr><td>7	</td><td>In CSS we can only use single text blocks.</td><td>	But in CSS3 we can use multi-column text blocks.</td></tr>
+<tr><td>8</td><td>	CSS does not support media queries.</td>	<td>But CSS3 supports media queries.</td></tr>
+<tr><td>9</td>	<td>CSS codes are not supported by all types of modern browsers.</td><td>	Being the latest version, CSS3 codes are supported by all modern browsers.</td></tr>
+<tr><td>10</td><td>	In CSS, designers have to manually develop rounded gradients and corners.</td><td>	But CSS3 provides advanced codes for setting rounded gradients and corners</td></tr>
+<tr><td>11	</td><td>There is no special effect like shadowing text, text animation, etc. in CSS. The animation was coded in jQuery and JavaScript.</td><td>	CSS3 has many advance features like text shadows, visual effects, and a wide range of font styles and colors.</td></tr>
+<tr><td>12</td><td>	In CSS, the user can add background colors to list items and lists, set images for the list items, etc.</td><td>	Whereas CSS3 list has a special display property defined in it. Even list items also have counter reset properties.</td></tr>
+<tr><td>13</td><td>	CSS was developed in 1996.</td><td>	CSS3 is the latest version of CSS and was released in 2005.</td></tr>
+<tr><td>14</td><td>	CSS is memory intensive.	</td><td>CSS3 memory consumption is low as compared to CSS.</td></tr>
+</table></p>
+<h2>7.TYPES OF CSS</h2>
+<p>Cascading Style Sheet (CSS) is used to set the style in web pages that contain HTML elements. It sets the background color, font size, font family, color, … etc. properties of elements on a web page. There are three types of CSS which are given below:<br>
+<br><b>Table of Content</b><br>
+
+<ul><li>Inline CSS</li><br>
+<li>Internal or Embedded CSS</li><br>
+<li>External CSS</li></ul><br>
+<b>Inline CSS:</b><br>
+Inline CSS is a method of styling where CSS properties are directly applied to HTML elements within the body section by using the “style” attribute. This method enables localized and specific styling for each element, which enhances the control over their presentation.<br>
+
+<b>Example:</b> This example shows the use of inline CSS with the help of an HTML document.<br>
+<div class="bordered">
+	< !DOCTYPE html><br>
+	< html><br>
+	
+	< head><br>
+		< title>Inline CSS</ title><br>
+		< style><br>
+			p {<br>
+				color:#009900;<br>
+				font-size:50px;<br>
+				font-style:italic;<br>
+				text-align:center;<br>
+			}<br>
+		< /style><br>
+	
+	< /head><br>
+	
+	< body><br>
+		< p><br>
+			MYHOME<br>
+		< /p><br>
+	< /body><br>
+	
+	< /html><br>
+</div>
+<p>
+<div class="bordered">
+<a href="1fig.html">fig1</a>
+
+</div></p>
+<b>Internal or Embedded CSS:</b><br>
+This can be used when a single HTML document must be styled uniquely. The CSS rule set should be within the HTML file in the head section i.e. the CSS is embedded within the < style> tag inside the head section of the HTML file.<br>
+
+<b>Example:</b> This example shows the use of internal CSS with the help of an HTML document.<br>
+<div class="bordered">
+	< !DOCTYPE html><br>
+	< html><br>
+	
+	< head><br>
+		< title>Internal CSS< /title><br>
+		< style><br>
+			.main {<br>
+				text-align: center;<br>
+			}<br>
+	
+			.HIM {<br>
+				color: #009900;<br>
+				font-size: 50px;<br>
+				font-weight: bold;<br>
+			}<br>
+	
+			.my {<br>
+				font-style: bold;<br>
+				font-size: 20px;<br>
+			}<br>
+		< /style><br>
+	< /head><br>
+	
+	< body><br>
+		< div class="main"><br>
+			< div class="HIM">HereIsMy< /div><br>
+	
+			< div class="my"><br>
+				My Home Is Here<br>
+			< /div><br>
+		< /div><br>
+	< /body><br>
+	
+	< /html><br>
+	
+
+</div>
+<p><div class="bordered">
+	<a href="2fig.html">fig2</a>
+</div></p>
+<b>External CSS:</b><br>
+External CSS contains separate CSS files that contain only style properties with the help of tag attributes (For example class, id, heading, … etc). CSS property is written in a separate file with a .css extension and should be linked to the HTML document using a link tag. It means that, for each element, style can be set only once and will be applied across web pages.<br>
+
+<b>Example:</b> This example shows the use of external CSS with the help of an HTML document.<br>
+<div class="bordered">
+	!-- index.html --><br>
+	< !DOCTYPE html><br>
+	< html><br>
+	
+	< head><br>
+		< title>External CSS Example< /title><br>
+		< link rel="stylesheet" type="text/css" href="3fig.css"><br>
+	< /head><br>
+	
+	< body>< center><br>
+		< div class="main"><br>
+			< div class="HIM">HereIsMy< /div><br>
+			< div class="my">My Home Is Here< /div><br>
+		< /div></ center><br>
+	< /body><br>
+	
+	< /html><br>
+</div>
+<div class="bordered">
+	< !----here we are adding css----><br>
+	/* styles.css */<br>
+.main {<br>
+    background-color: #975a5a;<br>
+    padding: 20px;<br>
+}<br>
+
+.HIM {<br>
+    color: rgb(28, 28, 29);<br>
+    font-size: 24px;<br>
+}<br>
+
+.my {<br>
+    color: rgb(2, 56, 2);<br>
+    font-size: 18px;<br>
+}<br>
+
+	
+</div>
+<p>
+<div class="bordered">
+	<a href="3fig.html">fig3</a>
+</div></p>
+<h2>8.HOW TO USE CSS IN HTML DOCUMENT?</h2>
+<p>CSS may be added to HTML in three different ways. To style a single HTML element on the page, use Inline CSS in a style attribute. By adding CSS to the head section of our HTML document, we can embed an internal stylesheet. We can also connect to an external stylesheet that separates our CSS from our HTML.</p>
+<h2>9.CSS SELECTORS AND THEIR TYPES</h2>
+<p>CSS selectors are used to "find" (or select) the HTML elements you want to style.<br>
+
+<b>We can divide CSS selectors into five categories:</b><br>
+
+<ul><li>Simple selectors (select elements based on name, id, class)</li>
+<li>Combinator selectors (select elements based on a specific relationship between them)</li>
+<li>Pseudo-class selectors (select elements based on a certain state)</li>
+<li>Pseudo-elements selectors (select and style a part of an element)</li>
+<li>Attribute selectors (select elements based on an attribute or attribute value)</li></ul>
+<b>1.The CSS element Selector</b><br>
+The element selector selects HTML elements based on the element name.<br>
+
+<b><i>Example</b></i>
+Here, all < p> elements on the page will be center-aligned, with a red text color: <br>
+<div class="bordered">
+p {<br>
+  text-align: center;<br>
+  color: red;<br>
+}<br>
+</div>
+<br><b>2.The CSS id Selector</b><br>
+The id selector uses the id attribute of an HTML element to select a specific element.<br>
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!<br>
+
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.<br>
+
+<b><i>Example</b></i>
+The CSS rule below will be applied to the HTML element with id="para1":<br> 
+<div class="bordered">
+#para1 {<br>
+  text-align: center;<br>
+  color: red;<br>
+}</div><br>
+<b>Note:</b> An id name cannot start with a number!<br>
+<br><b>3.The CSS class Selector</b><br>
+The class selector selects HTML elements with a specific class attribute.<br>
+
+To select elements with a specific class, write a period (.) character, followed by the class name.<br>
+
+<b>Example</b>
+In this example all HTML elements with class="center" will be red and center-aligned: <br>
+<div class="bordered">
+.center {<br>
+  text-align: center;<br>
+  color: red;<br>
+}<br>
+</div>
+You can also specify that only specific HTML elements should be affected by a class.<br>
+
+<b>Example</b><br>
+In this example only < p> elements with class="center" will be red and center-aligned: <br>
+<div class="bordered">
+p.center {<br>
+  text-align: center;<br>
+  color: red;<br>
+}</div><br>
+HTML elements can also refer to more than one class.<br>
+
+<b>Example</b>
+In this example the < p> element will be styled according to class="center" and to class="large": <br>
+
+< p class="center large">This paragraph refers to two classes.< /p><br>
+<b>Note:</b> A class name cannot start with a number!<br>
+<br><b>4.The CSS Universal Selector</b><br>
+The universal selector (*) selects all HTML elements on the page.<br>
+
+<b>Example</b>
+The CSS rule below will affect every HTML element on the page: <br>
+<div class="bordered">
+* {<br>
+  text-align: center;<br>
+  color: blue;<br>
+}<br>
+</div>
+<br><b>5.The CSS Grouping Selector</b><br>
+The grouping selector selects all the HTML elements with the same style definitions.<br>
+
+Look at the following CSS code (the h1, h2, and p elements have the same style definitions):<br>
+<div class="bordered">
+h1 {<br>
+  text-align: center;<br>
+  color: red;<br>
+}<br>
+
+h2 {<br>
+  text-align: center;<br>
+  color: red;<br>
+}<br>
+
+p {<br>
+  text-align: center;<br>
+  color: red;<br>
+}<br>
+</div>
+It will be better to group the selectors, to minimize the code.<br>
+
+To group selectors, separate each selector with a comma.<br>
+<b>Example</b><br>
+In this example we have grouped the selectors from the code above: <br>
+<div class="bordered">
+h1, h2, p {<br>
+  text-align: center;<br>
+  color: red;<br>
+}<br>
+</div>
+<br><b>All CSS Simple Selectors</b><br>
+<table border="3">
+<tr><th>Selector</th><th>	Example	</th><th>Example description</th></tr>
+<tr><td>#id	</td><td>#firstname</td><td>	Selects the element with id="firstname"</td></tr>
+<tr><td>.class	</td><td>.intro	</td><td>Selects all elements with class="intro"</td></tr>
+<tr><td>element.class</td><td>	p.intro</td><td>	Selects only < p> elements with class="intro"</td></tr>
+<tr><td>*</td><td>	*</td><td>	Selects all elements</td></tr>
+<tr><td>element</td>	<td>p	</td><td>Selects all < p> elements</td></tr>
+<tr><td>element,element,..	</td><td>div, p	</td><td>Selects all < div> elements and all < p> elements</td></tr>
+</table>
+</p>
+</body>
+</html>
+
